@@ -1,5 +1,4 @@
 db.json
 /node_modules
-!/node_modules/hexo-theme-doc/
 public
 themes/doc
