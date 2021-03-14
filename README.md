@@ -2,7 +2,7 @@
 [BotUI](https://github.com/botui/botui)
 > 一个用于构建Bot（机器人）UI（用户界面）的Javascript框架。
 
-汉化以及由 Hexo 重构。
+汉化以及由 [Hexo](https://hexo.io/) & [hexo-theme-doc](https://github.com/zalando-incubator/hexo-theme-doc) 重构。
 
 # 关于
 
