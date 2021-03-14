@@ -1,0 +1,46 @@
+{
+  "logo": {
+    "text": "BotUI 中文文档",
+    "type": "link",
+    "path": "index.html"
+  },
+  "main": [
+     {
+      "text": "首页",
+      "type": "link",
+      "path": "index.html"
+    },
+    {
+      "text": "安装",
+      "type": "link",
+      "path": "install.html"
+    },
+    {
+      "text": "概念",
+      "type": "link",
+      "path": "concepts.html"
+    },
+
+  {
+      "text": "指南",
+      "type": "link",
+      "path": "guide.html"
+    },
+
+  {
+      "text": "主题",
+      "type": "link",
+      "path": "theme.html"
+    },
+  {
+      "text": "API 参考",
+      "type": "link",
+      "path": "reference.html"
+    },
+  {
+      "text": "贡献代码",
+      "type": "link",
+      "path": "contribute.html"
+    },
+  ]
+}
