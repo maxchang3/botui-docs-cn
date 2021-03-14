@@ -3,3 +3,4 @@ node_modules
 public
 
 themes/doc
+!node_modules/hexo-theme-doc
