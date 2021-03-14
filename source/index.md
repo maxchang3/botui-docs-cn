@@ -24,7 +24,7 @@ BotUI 使得创建一个会话/Bot接口变的超级简单。他提供一个直�
 ...
 
 <div id="my-botui-app">
-  <bot-ui></botui>
+  <bot-ui></bo-tui>
 </div>
 
 ...

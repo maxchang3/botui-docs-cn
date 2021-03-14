@@ -92,7 +92,7 @@ botui.message.add({
   });
 });
 ```
-`loding` 可以结合 `delay`(延迟)来展示“加载”用于特殊用途，然后显示原始的信息。
+`loading` 可以结合 `delay`(延迟)来展示“加载”用于特殊用途，然后显示原始的信息。
 
 ```javascript
 botui.message.add({
