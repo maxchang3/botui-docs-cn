@@ -3,9 +3,10 @@ title: 简介
 ---
 
 # 关于
-本文档由 [张麦麦](https://zhangmaimai.com) 汉化，若发现任何问题欢迎反馈。
+本文档由 [张麦麦](https://zhangmaimai.com) 汉化，若发现任何问题欢迎反馈。<a href="https://www.netlify.com/" rel="external nofollow noreferrer" class="footer-link" target="_blank"><img src="https://www.netlify.com/img/global/badges/netlify-dark.svg" style="margin-bottom:-14px"></a>
 <div class="github-card" data-github="MaxChang3/botui-docs-cn" data-width="400" data-height="" data-theme="default"></div>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+
 # BotUI
 
 > 一个用于构建Bot（机器人）UI（用户界面）的Javascript框架。
