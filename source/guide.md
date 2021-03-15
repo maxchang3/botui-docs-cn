@@ -133,9 +133,11 @@ botui.action.button({
 ```
 
 显示下拉列表
+> 经测试需要在action前加入一个delay否则容易显示错误。
 
 ```javascript
 botui.action.select({
+  delay:50,
   action: {
       placeholder : "Select Language", 
       value: 'TR', // 选定值或者对象，例如：{value: "TR", text : "Türkçe" }
@@ -163,6 +165,7 @@ botui.action.select({
 
 ```javascript
 botui.action.select({
+  delay:50,
   action: {
       placeholder : "Select Language", 
       value: 'TR,EN', // 选定值或选定数组对象。 例如： [{value: "TR", text : "Türkçe" },{value: "EN", text : "English" }]

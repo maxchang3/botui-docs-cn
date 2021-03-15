@@ -4,7 +4,8 @@ title: 简介
 
 # 关于
 本文档由 [张麦麦](https://zhangmaimai.com) 汉化，若发现任何问题欢迎反馈。
-
+<div class="github-card" data-github="MaxChang3/botui-docs-cn" data-width="400" data-height="" data-theme="default"></div>
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
 # BotUI
 
 > 一个用于构建Bot（机器人）UI（用户界面）的Javascript框架。
