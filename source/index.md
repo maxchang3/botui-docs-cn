@@ -3,16 +3,24 @@ title: 简介
 ---
 
 # 关于
-本文档由 [张麦麦](https://zhangmaimai.com) 汉化，若发现任何问题欢迎反馈。<a href="https://www.netlify.com/" rel="external nofollow noreferrer" class="footer-link" target="_blank"><img src="https://www.netlify.com/img/global/badges/netlify-dark.svg" style="margin-bottom:-14px"></a>
+
+> 此项目最初创建时，我还不够成熟，因此无论是项目本身还是翻译质量都存在许多问题。此项目已经事实上停止维护已久，直接单独建立一个中文文档项目也不是一个合适的选择，现在我对项目进行重新规整，正式归档。
+
+> 建议直接查阅[官方文档](https://botui.org/docs)获取最准确的信息。
+
+ 
+<a href="https://www.netlify.com/" rel="external nofollow noreferrer" class="footer-link" target="_blank"><img src="https://www.netlify.com/img/global/badges/netlify-dark.svg" style="margin-bottom:-14px"></a>
+
 <div class="github-card" data-github="MaxChang3/botui-docs-cn" data-width="400" data-height="" data-theme="default"></div>
+
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+
 
 # BotUI
 
 > 一个用于构建Bot（机器人）UI（用户界面）的Javascript框架。
 
 BotUI 使得创建一个会话/Bot接口变的超级简单。他提供一个直观的Javascript API来显示添加消息和可执行操作。你所看见的一切都可以通过创建 [主题](theme.html) 进行修改。
-
 
 ### 快速上手
 
@@ -26,16 +34,16 @@ BotUI 使得创建一个会话/Bot接口变的超级简单。他提供一个直�
 ...
 
 <div id="my-botui-app">
-  <bot-ui></bo-tui>
+    <bot-ui>
+        </bo-tui>
 </div>
 
 ...
 ```
 
-
 #### JavaScript
 
-将父元素的`id`传递给`BotUI`的构建函数。
+将父元素的 `id` 传递给 `BotUI` 的构建函数。
 
 ```javascript
 var botui = new BotUI('my-botui-app');
@@ -45,15 +53,16 @@ var botui = new BotUI('my-botui-app');
 
 ```javascript
 botui.message.add({
-  content: 'Hello There!'
-}).then(function () {  // 等待上一条消息显示
-  botui.message.add({ // 显示下一条消息
-    content: 'How are you?'
-  });
+    content: 'Hello There!'
+}).then(function() { // 等待上一条消息显示
+    botui.message.add({ // 显示下一条消息
+        content: 'How are you?'
+    });
 });
 ```
 
 #### 总结
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -76,7 +85,7 @@ botui.message.add({
         var botui = new BotUI('my-botui-app');
         botui.message.add({
             content: 'Hello There!'
-        }).then(function () { // 等待上一条消息显示
+        }).then(function() { // 等待上一条消息显示
             botui.message.add({ // 显示下一条消息
                 content: 'How are you?'
             });
@@ -86,4 +95,5 @@ botui.message.add({
 
 </html>
 ```
+
 跟随后续的文档获得更详细的说明。
