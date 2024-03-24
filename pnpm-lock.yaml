@@ -27,8 +27,8 @@ dependencies:
     specifier: ^0.2.1
     version: 0.2.2
   hexo-theme-doc:
-    specifier: file:hexo-theme-doc
-    version: file:hexo-theme-doc
+    specifier: 1.0.0-rc.1
+    version: 1.0.0-rc.1
 
 packages:
 
@@ -238,6 +238,7 @@ packages:
   /assert-plus@1.0.0:
     resolution: {integrity: sha512-NfJ4UzBCcQGLDlQq7nHxH+tv3kyZ0hHQqF5BO6J7tNJeP5do1llPr8dZ8zHonfhAu0PHAdMkSo+8o0wxg9lZWw==}
     engines: {node: '>=0.8'}
+    requiresBuild: true
     dev: false
 
   /assign-symbols@1.0.0:
@@ -260,6 +261,7 @@ packages:
 
   /asynckit@0.4.0:
     resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
+    requiresBuild: true
     dev: false
 
   /atob@2.1.2:
@@ -280,6 +282,7 @@ packages:
 
   /aws4@1.12.0:
     resolution: {integrity: sha512-NmWvPnx0F1SfrQbYwOi7OeaNGokp9XhzNioJ/CSBs8Qa4vxug81mhJEAVZwxXuBmYB5KDRfMq/F3RR0BIU7sWg==}
+    requiresBuild: true
     dev: false
 
   /babel-code-frame@6.26.0:
@@ -974,6 +977,7 @@ packages:
 
   /caseless@0.12.0:
     resolution: {integrity: sha512-4tYFyifaFfGacoiObjJegolkwSU4xQNGbVgUiNYVUxbQ2x2lUsFvY4hVgVzGiIe6WLOPqycWXA40l+PWsxthUw==}
+    requiresBuild: true
     dev: false
 
   /center-align@0.1.3:
@@ -1133,6 +1137,7 @@ packages:
   /co@4.6.0:
     resolution: {integrity: sha512-QVb0dM5HvG+uaxitm8wONl7jltx8dqhfU33DcqtOZcLSVIKSDDLDi7+0LbAKiyI8hD9u42m2YxXSkMGWThaecQ==}
     engines: {iojs: '>= 1.0.0', node: '>= 0.12.0'}
+    requiresBuild: true
     dev: false
 
   /codacy-coverage@2.1.1:
@@ -1172,6 +1177,7 @@ packages:
   /combined-stream@1.0.8:
     resolution: {integrity: sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==}
     engines: {node: '>= 0.8'}
+    requiresBuild: true
     dependencies:
       delayed-stream: 1.0.0
     dev: false
@@ -1847,6 +1853,7 @@ packages:
 
   /extend@3.0.2:
     resolution: {integrity: sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==}
+    requiresBuild: true
     dev: false
 
   /extglob@0.3.2:
@@ -1966,6 +1973,7 @@ packages:
 
   /forever-agent@0.6.1:
     resolution: {integrity: sha512-j0KLYPhm6zeac4lz3oJ3o65qvgQCcPubiyotZrXqEaG4hNagNYO8qdlUrX5vwqv9ohqeT/Z3j6+yW067yWWdUw==}
+    requiresBuild: true
     dev: false
 
   /form-data@2.1.4:
@@ -2404,6 +2412,91 @@ packages:
       - supports-color
     dev: false
 
+  /hexo-theme-doc@1.0.0-rc.1:
+    resolution: {integrity: sha512-uB7Wd2qzHZQchnmYdeC4U3RDG94k8awacCXMy185Pdz02xkZIC0TxgR2sMw6Za9RBrqxHbl7P26/LrWBB+VLFQ==}
+    dependencies:
+      '@rbarilani/parse-template-object': 1.0.0
+      babel-preset-es2015: 6.24.1
+      babel-preset-react: 6.24.1
+      babel-register: 6.26.0
+      cheerio: 1.0.0-rc.12
+      clipboard: 1.7.1
+      codacy-coverage: 2.1.1
+      consolidate: 0.14.5(ejs@2.7.4)(lodash@4.17.21)(react-dom@16.14.0)(react@16.14.0)
+      dress-code: 2.4.0
+      ejs: 2.7.4
+      escape-string-regexp: 1.0.5
+      hexo-log: 0.2.0
+      is-plain-obj: 1.1.0
+      jquery: 3.7.1
+      js-crawler: 0.3.21
+      js-yaml: 3.14.1
+      jsx-loader: 0.13.2
+      lodash: 4.17.21
+      lunr: 2.1.0
+      node-jsx: 0.13.3
+      react: 16.14.0
+      react-dom: 16.14.0(react@16.14.0)
+      smooth-scroll: 12.1.5
+      strip-indent: 2.0.0
+      striptags: 3.2.0
+      swagger-parser: 4.1.0
+      touch: 3.1.0
+      url-join: 2.0.5
+      valid-url: 1.0.9
+    transitivePeerDependencies:
+      - arc-templates
+      - atpl
+      - babel-core
+      - bracket-template
+      - coffee-script
+      - dot
+      - dust
+      - dustjs-helpers
+      - dustjs-linkedin
+      - eco
+      - ect
+      - haml-coffee
+      - hamlet
+      - hamljs
+      - handlebars
+      - hogan.js
+      - htmling
+      - jade
+      - jazz
+      - jqtpl
+      - just
+      - liquid-node
+      - liquor
+      - marko
+      - mote
+      - mustache
+      - nunjucks
+      - plates
+      - pug
+      - qejs
+      - ractive
+      - razor-tmpl
+      - slm
+      - squirrelly
+      - supports-color
+      - swig
+      - swig-templates
+      - teacup
+      - templayed
+      - then-jade
+      - then-pug
+      - tinyliquid
+      - toffee
+      - twig
+      - twing
+      - underscore
+      - vash
+      - velocityjs
+      - walrus
+      - whiskers
+    dev: false
+
   /hexo-util@0.6.3:
     resolution: {integrity: sha512-zPxaqCWZz3/25SAB4FlrRtWktJ+Pr+vBiv/nyHpXKgXPt1m70liViKlRwWLqDmRjJ72x6/k4qCEeXHajvcGHUw==}
     dependencies:
@@ -2567,6 +2660,7 @@ packages:
 
   /inflight@1.0.6:
     resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
+    requiresBuild: true
     dependencies:
       once: 1.4.0
       wrappy: 1.0.2
@@ -2748,6 +2842,7 @@ packages:
 
   /is-typedarray@1.0.0:
     resolution: {integrity: sha512-cyA56iCMHAh5CdzjJIa4aohJyeO1YbwLi3Jc35MmRU6poroFjIGZzUzupGiRPOjgHg9TLu43xbpwXk523fMxKA==}
+    requiresBuild: true
     dev: false
 
   /is-utf8@0.2.1:
@@ -2787,6 +2882,7 @@ packages:
 
   /isstream@0.1.2:
     resolution: {integrity: sha512-Yljz7ffyPbrLpLngrMtZ7NduUgVvi6wG9RJ9IUcyCd59YQ911PBJphODUcbOVbqYfxe1wuYf/LJ8PauMRwsM/g==}
+    requiresBuild: true
     dev: false
 
   /joi@12.1.1:
@@ -2880,6 +2976,7 @@ packages:
 
   /json-stringify-safe@5.0.1:
     resolution: {integrity: sha512-ZClg6AaYvamvYEE82d3Iyd3vSSIjQ+odgjaTzRuO3s7toCdFKczob2i0zCh7JE8kWn17yvAWhUVxvqGwUalsRA==}
+    requiresBuild: true
     dev: false
 
   /json5@0.5.1:
@@ -2901,6 +2998,7 @@ packages:
   /jsprim@1.4.2:
     resolution: {integrity: sha512-P2bSOMAc/ciLz6DzgjVlGJP9+BrJWu5UDGK70C2iweC5QBIeFf0ZXRvGjEj2uYgrY2MkAAhsSWHDWlFtEroZWw==}
     engines: {node: '>=0.6.0'}
+    requiresBuild: true
     dependencies:
       assert-plus: 1.0.0
       extsprintf: 1.3.0
@@ -3224,6 +3322,7 @@ packages:
   /mkdirp@0.5.6:
     resolution: {integrity: sha512-FP+p8RB8OWpF3YZBCrP5gtADmtXApB5AMLn+vdyA+PyxCjrCs00mjyUozssO33cwDeT3wNGdLxJ5M//YqtHAJw==}
     hasBin: true
+    requiresBuild: true
     dependencies:
       minimist: 1.2.8
     dev: false
@@ -3387,6 +3486,7 @@ packages:
 
   /oauth-sign@0.8.2:
     resolution: {integrity: sha512-VlF07iu3VV3+BTXj43Nmp6Irt/G7j/NgEctUS6IweH1RGhURjjCc2NWtzXFPXXWWfc7hgbXQdtiQu2LGp6MxUg==}
+    requiresBuild: true
     dev: false
 
   /oauth-sign@0.9.0:
@@ -3462,6 +3562,7 @@ packages:
 
   /once@1.4.0:
     resolution: {integrity: sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==}
+    requiresBuild: true
     dependencies:
       wrappy: 1.0.2
     dev: false
@@ -3884,7 +3985,7 @@ packages:
       request: 2.88.2
       request-promise-core: 1.1.4(request@2.88.2)
       stealthy-require: 1.1.1
-      tough-cookie: 2.5.0
+      tough-cookie: 2.3.4
     dev: false
 
   /request@2.81.0:
@@ -4029,6 +4130,7 @@ packages:
 
   /safer-buffer@2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
+    requiresBuild: true
     dev: false
 
   /sass@1.72.0:
@@ -4253,6 +4355,7 @@ packages:
     resolution: {integrity: sha512-2p2KJZTSqQ/I3+HX42EpYOa2l3f8Erv8MWKsy2I9uf4wA7yFIkXRffYdsx86y6z4vHtV8u7g+pPlr8/4ouAxsQ==}
     engines: {node: '>=0.10.0'}
     hasBin: true
+    requiresBuild: true
     dependencies:
       asn1: 0.2.6
       assert-plus: 1.0.0
@@ -4488,6 +4591,7 @@ packages:
   /tough-cookie@2.3.4:
     resolution: {integrity: sha512-TZ6TTfI5NtZnuyy/Kecv+CnoROnyXn2DN97LontgQpCwsX2XyLYCC0ENhYkehSOwAp8rTQKc/NUIF7BkQ5rKLA==}
     engines: {node: '>=0.8'}
+    requiresBuild: true
     dependencies:
       punycode: 1.4.1
     dev: false
@@ -4512,6 +4616,7 @@ packages:
 
   /tunnel-agent@0.6.0:
     resolution: {integrity: sha512-McnNiV1l8RYeY8tBgEpuodCC1mLUdbSN+CYBL7kJsJNInOP8UjDDEwdk6Mw60vdLLrr5NHKZhMAOSrR2NZuQ+w==}
+    requiresBuild: true
     dependencies:
       safe-buffer: 5.2.1
     dev: false
@@ -4605,6 +4710,7 @@ packages:
     resolution: {integrity: sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==}
     deprecated: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
     hasBin: true
+    requiresBuild: true
     dev: false
 
   /valid-url@1.0.9:
@@ -4673,6 +4779,7 @@ packages:
 
   /wrappy@1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
+    requiresBuild: true
     dev: false
 
   /yallist@2.1.2:
@@ -4698,90 +4805,4 @@ packages:
       validator: 10.11.0
     optionalDependencies:
       commander: 2.20.3
-    dev: false
-
-  file:hexo-theme-doc:
-    resolution: {directory: hexo-theme-doc, type: directory}
-    name: hexo-theme-doc
-    dependencies:
-      '@rbarilani/parse-template-object': 1.0.0
-      babel-preset-es2015: 6.24.1
-      babel-preset-react: 6.24.1
-      babel-register: 6.26.0
-      cheerio: 1.0.0-rc.12
-      clipboard: 1.7.1
-      codacy-coverage: 2.1.1
-      consolidate: 0.14.5(ejs@2.7.4)(lodash@4.17.21)(react-dom@16.14.0)(react@16.14.0)
-      dress-code: 2.4.0
-      ejs: 2.7.4
-      escape-string-regexp: 1.0.5
-      hexo-log: 0.2.0
-      is-plain-obj: 1.1.0
-      jquery: 3.7.1
-      js-crawler: 0.3.21
-      js-yaml: 3.14.1
-      jsx-loader: 0.13.2
-      lodash: 4.17.21
-      lunr: 2.1.0
-      node-jsx: 0.13.3
-      react: 16.14.0
-      react-dom: 16.14.0(react@16.14.0)
-      smooth-scroll: 12.1.5
-      strip-indent: 2.0.0
-      striptags: 3.2.0
-      swagger-parser: 4.1.0
-      touch: 3.1.0
-      url-join: 2.0.5
-      valid-url: 1.0.9
-    transitivePeerDependencies:
-      - arc-templates
-      - atpl
-      - babel-core
-      - bracket-template
-      - coffee-script
-      - dot
-      - dust
-      - dustjs-helpers
-      - dustjs-linkedin
-      - eco
-      - ect
-      - haml-coffee
-      - hamlet
-      - hamljs
-      - handlebars
-      - hogan.js
-      - htmling
-      - jade
-      - jazz
-      - jqtpl
-      - just
-      - liquid-node
-      - liquor
-      - marko
-      - mote
-      - mustache
-      - nunjucks
-      - plates
-      - pug
-      - qejs
-      - ractive
-      - razor-tmpl
-      - slm
-      - squirrelly
-      - supports-color
-      - swig
-      - swig-templates
-      - teacup
-      - templayed
-      - then-jade
-      - then-pug
-      - tinyliquid
-      - toffee
-      - twig
-      - twing
-      - underscore
-      - vash
-      - velocityjs
-      - walrus
-      - whiskers
     dev: false

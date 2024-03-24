@@ -12,6 +12,6 @@
     "hexo-renderer-marked": "^0.2.10",
     "hexo-renderer-sass": "^0.5.0",
     "hexo-server": "^0.2.1",
-    "hexo-theme-doc": "file:hexo-theme-doc"
+    "hexo-theme-doc": "1.0.0-rc.1"
   }
 }

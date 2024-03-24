@@ -22,6 +22,6 @@ theme: ../node_modules/hexo-theme-doc
 theme_config:
   favicon: images/favicon.ico
 
-ignore:
-  # development only: ignore sub node_modules when `npm link hexo-theme-doc`
-  - '**/node_modules/**/*node_modules'
+# ignore:
+#   # development only: ignore sub node_modules when `npm link hexo-theme-doc`
+#   - '**/node_modules/**/*node_modules'
